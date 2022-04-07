@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List-groups</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action d-flex py-3">
+                <img src="./img/bootstrap-img.png" alt="bootstrap" class="me-3 rounded-circle bootstrap-logo">
+                <div class="d-flex justify-content-between w-100 ">
+                    <div>
+                        <h6 class="mb-0">List group item heading</h6>
+                        <p class="opacity-75 mb-0">Some placeholder content in a paragraph</p>
+                    </div>
+                    <small class="opacity-50">now</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex py-3">
+                <img src="./img/bootstrap-img.png" alt="bootstrap" class="me-3 rounded-circle bootstrap-logo">
+                <div class="d-flex justify-content-between w-100 ">
+                    <div>
+                        <h6 class="mb-0">Another title here</h6>
+                        <p class="opacity-75 mb-0">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line</p>
+                    </div>
+                    <small class="opacity-50">3d</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex py-3">
+                <img src="./img/bootstrap-img.png" alt="bootstrap" class="me-3 rounded-circle bootstrap-logo">
+                <div class="d-flex justify-content-between w-100 ">
+                    <div>
+                        <h6 class="mb-0">Third heading</h6>
+                        <p class="opacity-75 mb-0">Some placeholder content in a paragraph</p>
+                    </div>
+                    <small class="opacity-50">1w</small>
+                </div>
+            </a>
+        </div>
+        <div class="example-divider"></div>
+        <div class="d-flex justify-content-center flex-column-sm align-content-sm">
+            <div class="list-group mx-0 me-5 mx-media">
+                <label for="firstCheckbox" class="list-group-item d-flex">
+                    <input type="checkbox" class="form-check-input me-2" name="" id="firstCheckbox">
+                    <span>
+                        First checkbox 
+                        <small class="text-muted d-block">With support text underneath to add more detail</small>
+                    </span>
+                </label>
+                <label for="secondCheckbox" class="list-group-item d-flex">
+                    <input type="checkbox" class="form-check-input me-2" name="" id="secondCheckbox">
+                    <span>
+                        Second checkbox
+                        <small class="text-muted d-block">Some other text goes here</small>
+                    </span>
+                </label>
+                <label for="thirdCheckbox" class="list-group-item d-flex">
+                    <input type="checkbox" class="form-check-input me-2" name="" id="thirdCheckbox">
+                    <span>
+                        Third checkbox
+                        <small class="text-muted d-block">And we end with another snippet of text</small>
+                    </span>
+                </label>
+            </div>
+            <div class="list-group mx-0 mx-media-sm">
+                <label for="firstRadio" class="list-group-item d-flex">
+                    <input type="radio" class="form-check-input me-2" name="formRadio" value="first" id="firstRadio">
+                    <span>
+                        First radio
+                        <small class="text-muted d-block">With support text underneath to add more detail</small>
+                    </span>
+                </label>
+                <label for="secondRadio" class="list-group-item d-flex">
+                    <input type="radio" class="form-check-input me-2" name="formRadio" value="second" id="secondRadio">
+                    <span>
+                        Second radio
+                        <small class="text-muted d-block">Some other text goes here</small>
+                    </span>
+                </label>
+                <label for="thirdRadio" class="list-group-item d-flex">
+                    <input type="radio" class="form-check-input me-2" name="formRadio" value="third" id="thirdRadio">
+                    <span>
+                        Third radio
+                        <small class="text-muted d-block">And we end with another snippet of text</small>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="example-divider"></div>
+        <div class="list-group">
+            <label for="salesReport" class="list-group-item d-flex label-check2 checked-box">
+                <input type="checkbox" class="form-check-input me-2 huge-checkbox" name="" value="" id="salesReport">
+                <span class="pt-1 checked-content label-check">
+                    <strong>Finish sales report</strong>
+                    <small class="text-muted d-block">
+                        <i class="bi bi-calendar-event"></i>
+                        1:00-2:00pm
+                    </small>
+                </span>
+            </label>
+            <label for="weeklyAllHands" class="list-group-item d-flex">
+                <input type="checkbox" class="form-check-input me-2 huge-checkbox" name="" value="" id="weeklyAllHands">
+                <span class="pt-1 checked-content">
+                    <strong>Weekly All Hands</strong>
+                    <small class="text-muted d-block">
+                        <i class="bi bi-calendar-event"></i>
+                        2:00-2:30pm
+                    </small>
+                </span>
+            </label>
+            <label for="outOfOffice" class="list-group-item d-flex">
+                <input type="checkbox" class="form-check-input me-2 huge-checkbox" name="" value="" id="outOfOffice">
+                <span class="pt-1 checked-content">
+                    <strong>Out of office</strong>
+                    <small class="text-muted d-block">
+                        <i class="bi bi-alarm"></i>
+                        Tomorrow
+                    </small>
+                </span>
+            </label>
+            <label for="" class="list-group-item d-flex bg-light">
+                <input type="checkbox" class="form-check-input form-check-input-placeholder bg-light me-2 huge-checkbox" disabled name="" value="" id="">
+                <span class="pt-1 checked-content">
+                    Add new tasks
+                    <small class="text-muted d-block">
+                        <i class="bi bi-list-check"></i>
+                        Choose list...
+                    </small>
+                </span>
+            </label>
+        </div>
+        <div class="example-divider"></div>
+        <div class="list-group list-group-checkable">
+            <input class="item-checked" type="radio" name="CheckableRadios" id="CheckableRadios1">
+            <label for="CheckableRadios1" class="list-group-item py-3 list-group-rounded">
+                First radio
+                <span class="d-block small opacity-50">With support text underneath to add more detail</span>
+            </label>
+            <input class="item-checked" type="radio" name="CheckableRadios" id="CheckableRadios2">
+            <label for="CheckableRadios2" class="list-group-item py-3 list-group-rounded">
+                Second radio
+                <span class="d-block small opacity-50">Some other text goes here</span>
+            </label>
+            <input class="item-checked" type="radio" name="CheckableRadios" id="CheckableRadios3">
+            <label for="CheckableRadios3" class="list-group-item py-3 list-group-rounded">
+                Third radio
+                <span class="d-block small opacity-50">And we end with another snippet of text</span>
+            </label>
+            <input class="item-checked" disabled type="radio" name="CheckableRadios" id="CheckableRadios4">
+            <label for="CheckableRadios4" disabled class="opacity-50 list-group-item py-3 list-group-rounded">
+                Fourth Disabled radio
+                <span class="d-block small opacity-50">this option is disabled</span>
+            </label>
+        </div>
+    </main>
+</body>
+</html> 
